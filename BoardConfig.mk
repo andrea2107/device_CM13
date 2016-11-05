@@ -85,7 +85,7 @@ BOARD_MKBOOTIMG_ARGS := \
 	--tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 
 # Building Kernel From Source
-TARGET_KERNEL_SOURCE := kernel/xiaomi/hermes/kernel-3.10
+TARGET_KERNEL_SOURCE := kernel/xiaomi/hermes
 TARGET_KERNEL_ARCH := $(TARGET_ARCH)
 TARGET_KERNEL_HEADER_ARCH := $(TARGET_ARCH)
 TARGET_KERNEL_CONFIG := hermes_defconfig
