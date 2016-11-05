@@ -186,8 +186,3 @@ TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 # SELinux
 BOARD_SEPOLICY_DIRS := \
     device/xiaomi/hermes/sepolicy
-
-# Hack for building without kernel sources
-ifeq ($(TARGET_DEVICE),hermes)
-$(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
-endif
